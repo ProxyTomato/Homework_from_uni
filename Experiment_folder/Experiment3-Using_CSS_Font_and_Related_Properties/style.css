@@ -16,7 +16,7 @@ a{
 	color: #0069c2;
 	text-decoration:none;
 }
-*:not(h1)#:not(p){
+body:not(h1, p){
 	font-size: 18px;
 	color: grey;
 }
