@@ -1,0 +1,29 @@
+h4{
+	line-height: 40px;
+	font-size: 20px;
+	color: #333;
+}
+p{
+	font-size: 14px;
+	color: #666;
+}
+.icon{
+	
+	margin-right: 15px;
+}
+.card{
+	display: flex;
+	width: 500px;
+	height: 88px;
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+}
+.contianer{
+	display: flex;
+	padding: 900px 40px 90px 60px;
+	height: 418;
+	justify-content:space-around;
+	flex-direction: column;
+}
