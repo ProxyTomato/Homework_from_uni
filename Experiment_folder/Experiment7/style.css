@@ -1,13 +1,5 @@
-.banner{
-}
-.logo{
-}
-.link{
-}
-.enter_keywords{
-	background:
-}
-.user_icon{
-}
-.user_image{
+.service li{
+	width: 32px;
+	height: 42px;
+	list-style-image: orange;
 }

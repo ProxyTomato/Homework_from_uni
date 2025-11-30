@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, intitial-scale=1,0">
-		<title>The unofficial website of Bangkok tourism</title>
+		<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+		<title>เว็บไม่ทางการเกี่ยวกับกรุงเทพ</title>
 		<link rel="stylesheet" href="homepage.css">
 		<script src="homepage.js"></script>
 	</head>
@@ -17,53 +17,38 @@
 				<div class="align-right">
 					<div class="navigate-wrapper">
 						<ul>
-							<input type="radio" name="dropdown" id="desination">
-							<li><label for="desination">Desination</li>
+							<li><a href="#destination-title">ปลายทาง</a></li>
 
-							<input type="radio" name="dropdown" id="experiences">
-							<li><label for="experiences">Experiences</label></li>
-
-							<input type="radio" name="dropdown" id="plan-your-trip">
-							<li><label for="plan-your-trip">Plan Your Trip</label></li>
-							
-							<input type="radio" name="dropdown" id="language">
-							<li><label for="language">Language</label></li>
-
-							<li>Login</li>
+							<li><a href="#experience-grid">ประสบการณ์</a></li>
 						</ul>
 					</div>
 				</div>
 			</header>
 		</div>
-		<span class="anchor" id="landing"></span>
-		<div class="destination-menu">
-			<h1>Top Destination</h1>
-			<div class="destination-selector">
+		<div id="destination-menu">
+			<h1 id="destination-title">ปลายทางยอดนิยม</h1>
+			<div id="destination-selector">
 				<ul>
-					<li>Giant Swing</li>
-					<li>Temple of Emerald Buddha</li>
-					<li>Taling Chan Floating Market</li>
+					<input type="radio" name="destination-radio" id="swing-radio">
+					<label for="swing-radio"><li>เสาชิงช้า</li></label>
+					<input type="radio" name="destination-radio" id="temple-radio">
+					<label for="temple-radio"><li>วัดพระแก้ว</li></label>
+					<input type="radio" name="destination-radio" id="floating-radio">
+					<label for="floating-radio"><li>ตลาดน้ำตลิ่งชัน</li></label>
 				</ul>
 			</div>
-			<div class="map"></div>
-			<div class="description">
-				<h2 class="destination-name">Giant Swing</h2>
-				<p class="destination-description">Be wonder with the articheture prowess of bygone era</p>
-				<div class="images-slide">
-					<img src="Images/Giant-swing1.jpg" alt="Image1">
-					<img src="Images/Giant-swing2.jpg" alt="Image2">
-					<img src="Images/Giant-Swing3.webp" alt="Image3">
+			<div id="description">
+				<img id="destination-image" src="./Images/Giant-Swing3.webp">
+				<div id="paragraph">
+					<h2 id="destination-name">เสาชิงช้า</h2>
+					<p id="destination-description">เสาชิงช้าเป็นวัตถุโบราณ</p>
 				</div>
 			</div>
 		</div>	
 
-		<p class="dark-green">Test colour class!</p>
-		<p class="mint">Test colour class!</p>
-		<p class="light-green">Test colour class!</p>
-		
 		<!--ส่วนของแอมมี่-->
 		<h1 class="title">ประสบการณ์</h1>
-		<div class="experience-grid">
+		<div id="experience-grid">
 			<div class="card thai-food">
 				<img src="./Images/thai-food.jpg" alt="">
 	 			<span>อาหารไทย</span>
