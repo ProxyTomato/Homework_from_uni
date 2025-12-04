@@ -119,6 +119,10 @@ input{
 	flex-direction: row;
 	margin-top: 32px;
 }
+#paragraph{
+	width: 500px;
+}
+
 #destination-image{
 	width: 450px;
 	height: 500px;
