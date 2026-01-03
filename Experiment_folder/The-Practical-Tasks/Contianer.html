@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width intial-scale=1.0">
+		<style>
+			.container{
+				display: flex;
+				flex-direction: row;
+				list-style: none;
+				justify-content: space-around;
+				
+
+				height: 42px;
+				width: 1190px;
+				Padding-left: 40px;
+				
+				font-size: 18px;
+				line-height: 42px;
+			}
+
+			li{
+				position: relative;
+
+				font-size: inherit;
+				line-height: inherit;
+			}
+
+			li::before{
+				position: absolute;
+				width: 41px;
+				height: 42px;
+				content:'';
+				left: -42px;
+			}
+
+			li:nth-child(1)::before{
+				background: url("Images/Sprites.png") 0 42px;
+			}
+
+			li:nth-child(2)::before{
+				background: url("Images/Sprites.png") -39px 42px;
+			}
+
+			li:nth-child(3)::before{
+				background: url("Images/Sprites.png") -78px 42px;
+			}
+
+			li:nth-child(4)::before{
+				background: url("Images/Sprites.png") -123px 42px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="container">
+			<li>Wide Selection</li>
+			<li>Lightning-Fasting Delivery</li>
+			<li>Premium Service</li>
+			<li>Low Prices Everyday</li>
+		</ul>
+	</body>
+</html>
